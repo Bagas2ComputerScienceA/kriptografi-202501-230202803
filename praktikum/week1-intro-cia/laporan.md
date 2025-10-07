@@ -8,7 +8,7 @@ Kelas: [5IKRB]
 ---
 
 ## Tujuan
-1. Membuat ringkasan tentang sejarah kriptografi dari masa klasik, modern, dan kontemporer
+1. sMembuat ringkasan tentang sejarah kriptografi dari masa klasik, modern, dan kontemporer
 2. Menjelaskan prinsip-prinsip dari CIA
 3. Menjawab Quiz singkat
 
