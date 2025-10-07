@@ -42,6 +42,7 @@ Prinsip Availability atau ketersediaan berfokus pada memastikan bahwa informasi 
 
 ## Langkah 3 — Dokumentasi
 Ringkasan Materi= Laporan.md
+! (screenshots/repo_setup.png)
 
 
 ---
