@@ -14,7 +14,7 @@ Kelas: [5IKRB]
 
 ---
 
-## Langkah 1 — Ringkasan Sejarah Kriptografi
+## Dasar Teori
 kriptografi adalah ilmu dan seni untuk menjaga keamanan informasi dengan cara menyamarkan pesan (plaintext) menjadi bentuk yang tidak dapat dibaca (ciphertext), sehingga hanya pihak yang memiliki kunci tertentu yang dapat membacanya kembali. Dalam perkembangannya, kriptografi telah melewati tiga era besar, yaitu: klasik, modern dan kontemporer.
 
 1. Era Kriptografi Klasik
@@ -26,9 +26,8 @@ Perkembangan komputer dan teori matematika menjadikan kriptografi lebih ilmiah d
 3. Era Kriptografi Kontemporer
 Kebutuhan keamanan digital meningkat pesat seiring munculnya internet, e-commerce, dan blockchain. Kriptografi kini menjadi bagian integral dari sistem keamanan global. Dalam konteks ini, kriptografi tidak hanya digunakan untuk menjaga kerahasiaan, tetapi juga untuk menjamin integritas, keaslian, dan transparansi transaksi. Teknologi seperti blockchain menggunakan kriptografi untuk memverifikasi transaksi secara transparan dan aman. Cryptocurrency menggunakan prinsip ini untuk membangun jaringan keuangan digital yang tidak bergantung pada otoritas pusat.
 
----
+Prinsip CIA
 
-## Langkah 2 — Prinsip CIA
 1. Confidentiality (Kerahasiaan)
 Prinsip Confidentiality atau kerahasiaan adalah dasar pertama dalam keamanan informasi yang bertujuan untuk menjaga agar informasi hanya dapat diakses oleh pihak yang berwenang. Prinsip ini mencegah terjadinya kebocoran atau penyalahgunaan data yang bisa menimbulkan kerugian, baik bagi individu maupun organisasi. Dalam kehidupan sehari-hari, penerapan prinsip kerahasiaan dapat kita temukan dalam berbagai bentuk. Misalnya, seseorang menggunakan kata sandi (password) yang kuat dan tidak membagikannya kepada siapa pun untuk melindungi akun media sosial atau perbankan online. Aplikasi pesan seperti WhatsApp dan Signal juga menerapkan enkripsi end-to-end, yang memastikan pesan hanya dapat dibaca oleh pengirim dan penerima. Dengan demikian, Confidentiality memastikan bahwa informasi tetap bersifat pribadi dan hanya dapat digunakan sesuai otoritas yang ditetapkan.
 
@@ -40,14 +39,37 @@ Prinsip Availability atau ketersediaan berfokus pada memastikan bahwa informasi 
 
 ---
 
-## Langkah 3 — Dokumentasi
-Ringkasan Materi= Laporan.md
-! (screenshots/repo_setup.png)
+## Alat dan Bahan
+
+1. Vs Code
+2. Browser
+3. Terminal CMD
+4. Github dan git
+
+---
+
+## Langkah Percobaan
+
+1. Melakukan fork repository kriptografi
+2. Melakukan clone repository ke komputer lokal.
+3. Membuat folder praktikum/week1-intro-cia/ berisi laporan.md dan folder screenshots.
+4. Menulis ringkasan materi singkat.
+5. Menjawab quiz.
+
+---
+
+## Source Code
+Belum ada source code
+
+---
+
+## Hasil dan Pembahasan
+![Setup Github](screenshots/repo_setup.png)
 
 
 ---
 
-## Langkah 4 — QUIZ
+## Jawab Pertanyaan
 1. Tokoh yang dianggap sebagai bapak kriptografi modern adalah Whitfield Diffie dan Martin Hellman. Pada tahun 1976, mereka memperkenalkan konsep kriptografi kunci publik (public-key cryptography). Konsep ini menjadi landasan utama bagi sistem keamanan digital modern, termasuk komunikasi terenkripsi di internet.
 
 2. Beberapa algoritma kunci publik yang populer adalah:
@@ -61,3 +83,24 @@ Ringkasan Materi= Laporan.md
 Ketiganya digunakan secara luas dalam keamanan data, komunikasi internet (HTTPS/TLS), dan tanda tangan digital.
 
 3. Kriptografi klasik menggunakan teknik sederhana seperti substitusi dan transposisi huruf, serta dilakukan secara manual. Sementara kriptografi modern berbasis pada algoritma matematis dan komputer, menggunakan konsep kunci digital (symmetric & asymmetric) untuk menjamin keamanan data secara ilmiah dan efisien.
+
+---
+
+## Kesimpulan
+
+Perkembangan kriptografi bermula dari teknik klasik sederhana yang menggunakan metode substitusi, kemudian berevolusi menjadi pendekatan modern berbasis algoritma matematis seperti RSA dan AES. Saat ini, kriptografi juga diterapkan dalam teknologi mutakhir seperti blockchain. Prinsip utama keamanan informasi, yaitu CIA (Confidentiality, Integrity, Availability), menjadi dasar penting dalam setiap sistem digital agar data tetap terlindungi, dapat dipercaya, dan selalu dapat diakses saat dibutuhkan.
+
+---
+
+## Daftar Pustaka
+---
+
+## Commit Log
+
+```
+commit abc12345
+Author: Bagas Enggar Prasetyo <bagasenggarp42@gmail.com>
+Date:   2025-10-11
+
+    week1-intro-cia: sejarah kriptografi dan prinsip cia
+```
